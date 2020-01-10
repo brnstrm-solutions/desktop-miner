@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title></title>
+
+    <!-- Custom fonts for this template-->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+
+    <!-- Custom styles for this template-->
+    <link href="css/sb-admin-2.min.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+            <!-- Sidebar - Brand -->
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="dashboard.html">
+                <!-- <div class="sidebar-brand-icon rotate-n-15">
+          <i class="fab fa-bitcoin"></i>
+        </div>
+        <div class="sidebar-brand-text mx-3">Miner <sup>1.0</sup></div> -->
+                <img src="./img/logo.png" width="100%" height="auto" />
+            </a>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider my-0">
+
+            <!-- Nav Item - Charts -->
+            <li class="nav-item active">
+                <a class="nav-link" href="charts.html">
+                    <i class="fas fa-fw fa-chart-area"></i>
+                    <span>Charts</span></a>
+            </li>
+
+            <!-- Nav Item - Tables -->
+            <li class="nav-item active">
+                <a class="nav-link" href="search.html">
+                    <i class="fas fa-fw fa-search"></i>
+                    <span>Search</span></a>
+            </li>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider d-none d-md-block">
+
+            <!-- Sidebar Toggler (Sidebar) -->
+            <div class="text-center d-none d-md-inline">
+                <button class="rounded-circle border-0" id="sidebarToggle"></button>
+            </div>
+
+        </ul>
+        <!-- End of Sidebar -->
+
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
+
+            <!-- Main Content -->
+            <div id="content">
+
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+                    <br>
+                    <br>
+
+                    <!-- Page Heading -->
+                    <h3 class="h3">Summary</h3>
+                    <div class="card shadow mb-4">
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                                    <thead>
+                                        <tr>
+                                            <th>Elapsed</th>
+                                            <th>GHSav</th>
+                                            <th>Accepted</th>
+                                            <th>Rejected</th>
+                                            <th>Network Blocks</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>26m 24s</td>
+                                            <td>11887.58</td>
+                                            <td>95</td>
+                                            <td>0</td>
+                                            <td>5</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h3 class="h3">My devices</h3>
+                    <div class="card shadow mb-2">
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                                    <thead>
+                                        <tr>
+                                            <th>Device</th>
+                                            <th>Enabled</th>
+                                            <th>Status</th>
+                                            <th>GHSav</th>
+                                            <th>GHS5s</th>
+                                            <th>GHS1m</th>
+                                            <th>GHS5m</th>
+                                            <th>GHS15m</th>
+                                            <th>Last Valid Work</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>SM0</td>
+                                            <td>Yes</td>
+                                            <td>Alive</td>
+                                            <td>65654</td>
+                                            <td>65654</td>
+                                            <td>65654</td>
+                                            <td>65654</td>
+                                            <td>65654</td>
+                                            <td>Mon Dec 30 03:17:11 2019</td>
+                                            <td> <a href="#" data-toggle="modal" data-target="#settingsModal" class="btn btn-secondary btn-user">
+                                                    settings
+                                                </a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>SM0</td>
+                                            <td>Yes</td>
+                                            <td>Alive</td>
+                                            <td>65654</td>
+                                            <td>65654</td>
+                                            <td>65654</td>
+                                            <td>65654</td>
+                                            <td>65654</td>
+                                            <td>Mon Dec 30 03:17:11 2019</td>
+                                            <td> <a href="#" data-toggle="modal" data-target="#settingsModal" class="btn btn-secondary btn-user">
+                                                    settings
+                                                </a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>SM0</td>
+                                            <td>Yes</td>
+                                            <td>Alive</td>
+                                            <td>65654</td>
+                                            <td>65654</td>
+                                            <td>65654</td>
+                                            <td>65654</td>
+                                            <td>65654</td>
+                                            <td>Mon Dec 30 03:17:11 2019</td>
+                                            <td> <a href="#" data-toggle="modal" data-target="#settingsModal" class="btn btn-secondary btn-user">
+                                                    settings
+                                                </a></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="btn btn-primary btn-user mb-4">
+                        Add new device
+                    </a>
+                    <h3 class="h3">Pools</h3>
+                    <div class="card shadow mb-4">
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                                    <thead>
+                                        <tr>
+                                            <th>Pool</th>
+                                            <th>URL</th>
+                                            <th>Active</th>
+                                            <th>User</th>
+                                            <th>Status</th>
+                                            <th>Difficulty</th>
+                                            <th>GetWorks</th>
+                                            <th>Accepted</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>0</td>
+                                            <td>stratum+tcp"//stratum.bicin.com:8000</td>
+                                            <td>true</td>
+                                            <td>microbtinit.test</td>
+                                            <td>alive</td>
+                                            <td>65536</td>
+                                            <td>48</td>
+                                            <td>95</td>
+                                        </tr>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>stratum+tcp"//stratum.bicin.com:8000</td>
+                                            <td>false</td>
+                                            <td>microbtinit.test</td>
+                                            <td>dead</td>
+                                            <td>0</td>
+                                            <td>0</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>stratum+tcp"//stratum.bicin.com:8000</td>
+                                            <td>false</td>
+                                            <td>microbtinit.test</td>
+                                            <td>dead</td>
+                                            <td>0</td>
+                                            <td>0</td>
+                                            <td>0</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.container-fluid -->
+
+            </div>
+            <!-- End of Main Content -->
+
+            <!-- Footer -->
+            <footer class="sticky-footer bg-white">
+                <div class="container my-auto">
+                    <div class="copyright text-center my-auto">
+                        <!-- <span>Copyright &copy; Your Website 2019</span> -->
+                    </div>
+                </div>
+            </footer>
+            <!-- End of Footer -->
+
+        </div>
+        <!-- End of Content Wrapper -->
+
+    </div>
+    <!-- End of Page Wrapper -->
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Settings Modal-->
+    <div class="modal fade" id="settingsModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Settings</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="dropdown mb-4 modal-body">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Dropdown (no arrow)
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                    <a class="btn btn-primary" href="#" data-dismiss="modal">Save</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        if (typeof module === 'object') { window.module = module; module = undefined; }
+
+    </script>
+
+    <!-- Bootstrap core JavaScript-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Core plugin JavaScript-->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for all pages-->
+    <script src="js/sb-admin-2.min.js"></script>
+
+
+    <script>if (window.module) module = window.module;</script>
+</body>
+
+</html>

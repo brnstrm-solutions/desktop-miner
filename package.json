@@ -20,7 +20,7 @@
     "appId": "com.luisduenas.minerdesktop",
     "win": {
       "target": "NSIS",
-      "icon": "build/icon.ico"
+      "icon": "img/icon.jpeg"
     }
   },
   "dependencies": {
