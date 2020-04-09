@@ -1,6 +1,6 @@
 {
   "name": "miner-desktop",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "main.js",
   "scripts": {
@@ -20,7 +20,7 @@
     "appId": "com.luisduenas.minerdesktop",
     "win": {
       "target": "NSIS",
-      "icon": "img/icon.jpeg"
+      "icon": "img/icon-256.png"
     }
   },
   "dependencies": {
